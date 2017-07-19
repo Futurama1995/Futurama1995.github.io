@@ -1,4 +1,7 @@
-.background.h1 {
+.background {
   background-color: black;
   font-color: white;
+  border-style: solid;
+  width: 1000px;
+  height: 1500px;
   }
