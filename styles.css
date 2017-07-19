@@ -1,6 +1,8 @@
 .background {
   background-color: black;
-  
+  background-position: center;
+  background-size: cover;
+  position: relative;
   border-style: solid;
   width: 1000px;
   height: 1500px;
