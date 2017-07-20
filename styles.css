@@ -1,16 +1,17 @@
-.background {
+.box {
   border: solid;
-  background-color: #d8ea72;
+  background-color: #9aa366;
   background-position: center;
   background-size: cover;
   position: relative;
   border-style: solid;
   width: 1000px;
   height: 1500px;
-  padding: 10px;
+  padding: 50px;
   }
 
 .background h1 {
   color: #ffffff;
+  float: right;
 }
 
