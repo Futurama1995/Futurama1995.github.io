@@ -14,6 +14,8 @@
   color: #ffffff;
   float: right;
   clear: left;
+  clear: right;
+  height: 140px;
 }
 
 .work {
