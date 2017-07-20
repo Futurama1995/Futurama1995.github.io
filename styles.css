@@ -10,13 +10,13 @@
   padding: 10px;
   }
 
-.background h1 {
+.header {
   color: #ffffff;
   float: right;
   clear: left;
   clear: right;
   height: 140px;
-  width: 1000px;
+  
 }
 
 .work {
