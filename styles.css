@@ -15,3 +15,14 @@
   float: right;
 }
 
+.work {
+  width: 650px;
+  height: 1490px;
+  background-color:#e0ef70;
+}
+
+.summary {
+  background-color:#454734;
+    width: 340px;
+  height: 1490px;
+}
