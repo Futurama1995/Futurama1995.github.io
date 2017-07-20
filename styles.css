@@ -1,32 +1,40 @@
-.box {
-  border: solid;
-  background-color: #9aa366;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  border-style: solid;
-  width: 1000px;
+.outer{
+  width: 1050px;
   height: 1500px;
-  padding: 10px;
+  border: solid;
+}
+
+.box {
+  margin: 20px;
+  box-sizing: border-box;
+  height:100%;
+  padding-bottom: 120px;
   }
 
-.header {
+.Name {
+  background-color: #9aa366;
   color: #ffffff;
-  float: right;
-  clear: left;
-  clear: right;
-  height: 140px;
-  
+  text-align: right;
+  height: 60px;
+  padding: 20px 30px 0px 0px;
+}
+
+.content {
+  width:100%;
+  height:100%;
+  margin: 0px;
 }
 
 .work {
-  width: 650px;
-  height: 1350px;
+  width: 70%;
+  height: 100%;
   background-color:#e0ef70;
+  display:inline-block;
 }
 
 .summary {
   background-color:#454734;
-    width: 320px;
-  height: 1490px;
+    width: 30%;
+  height: 100%;
+  float: right;
 }
