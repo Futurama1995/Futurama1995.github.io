@@ -1,12 +1,13 @@
 .background {
   border: solid;
-  background-color: black;
+  background-color: #d8ea72;
   background-position: center;
   background-size: cover;
   position: relative;
   border-style: solid;
   width: 1000px;
   height: 1500px;
+  padding: 10px;
   }
 
 .background h1 {
