@@ -90,3 +90,43 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+.study  {
+  display:inline-flex;
+}
+
+.year1 {
+  float:right;
+  margin-right:20px;
+  display:inline-flex;
+}
+
+.experience{
+  display:inline-flex;
+  border:solid
+}
+
+.year2 {
+  float:right;
+  display:inline-flex;
+  border:solid;
+  margin-right:20px;
+}
+
+.list2 {
+  display:inline;
+}
+
+.picture {
+  display:inline-flex;
+  border:solid;
+  width:270px;
+  height:270px;
+  position:relative;
+}
+
+.info {
+  display:inline;
+  overflow:hidden;
+}
