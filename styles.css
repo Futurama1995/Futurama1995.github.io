@@ -1,4 +1,8 @@
 
+*{
+  font-family:	Arial;
+}
+
 .outer{
   width: 1050px;
   height: 1500px;
@@ -40,6 +44,8 @@
     width: 30%;
   height: 100%;
   float: right;
+  display:flex;
+  flex-direction:column;
 }
 
 
@@ -92,7 +98,31 @@
 .show {display:block;}
 
 
-.study  {
+.work1{
+  padding-left:20px;
+}
+
+.work2{
+  padding-left:20px;
+}
+
+.work3{
+  padding-left:20px;
+}
+
+.work4{
+  padding-left:20px;
+}
+
+.work5{
+  padding-left:20px;
+}
+
+.work6{
+  padding-left:20px;
+}
+
+.study {
   display:inline-flex;
 }
 
@@ -100,22 +130,22 @@
   float:right;
   margin-right:20px;
   display:inline-flex;
-}
-
-.experience{
-  display:inline-flex;
-  border:solid
+  font-size:15px;
 }
 
 .year2 {
   float:right;
   display:inline-flex;
-  border:solid;
   margin-right:20px;
+  
 }
 
 .list2 {
-  display:inline;
+  display:inline-block;
+}
+
+.summary{
+  color:white;
 }
 
 .picture {
@@ -124,9 +154,54 @@
   width:270px;
   height:270px;
   position:relative;
+  align-self:center;
+  margin-top:10px;
+  border-radius:50%;
 }
 
 .info {
   display:inline;
-  overflow:hidden;
+  word-wrap: break-word;
+  padding-left:20px;
+  font-size:15px;
+  font-color:#ffffff;
+}
+
+.skillbox{
+  padding-left:20px;
+}
+
+.box1 {
+  width:250px;
+  height:20px;
+  position:absolute;
+  background-color:grey;
+}
+
+.box11 {
+  width:200px;
+  height:20px;
+  background-color:white;
+  position:absolute;
+}
+
+.box22 {
+  width:130px;
+  height:20px;
+  background-color:white;
+  position:absolute;
+}
+
+.box33 {
+  width:230px;
+  height:20px;
+  background-color:white;
+  z-index:2;
+  position:absolute;
+}
+
+
+.hobby {
+  padding-left:20px;
+  margin-top:20px;
 }
